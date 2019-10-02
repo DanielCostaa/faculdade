@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel ="stylesheet" type="text/css" href="estilo/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+        <title>Formulário</title>
+    </head>
+<body>
+        <form action="tabela.php" method="POST" class="content-center">
+            <fieldset class="content-center">
+                <div class="content">
+                    <label>Nome:</labeL><input type ="text" id ="name" class = "center" name = "nome" placeholder="Digite seu nome " required/> 
+                </div>
+                <div class="content">
+                    <label>Idade:</label><input type = "number" id = "idade" class = "center" name = "idade" placeholder="Digite sua idade " required/> 
+                </div>
+                <div>
+                    <p>Tem filhos ?</p>
+                    <input type="radio" id="no" class = "check" name ="children"/><label for="no">Não</label>
+                    <input type="radio" id="yes" class = "check" name ="children"/><label for="yes">Sim</label>
+                </div>
+            </fieldset>
+
+            <div class = "todo"></div>
+    <div>
+        <button id ="btn-submit">Enviar</button>
+    </div>
+        </form>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+</html>

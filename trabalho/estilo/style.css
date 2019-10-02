@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif; 
+}
+
+body{
+    background-color: aliceblue
+}
+
+.content-center{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+
+.content-center .center{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.content-center #name{
+    border-color: rgba(20, 20, 20, 0.959);
+    outline: none;
+}
+
+.content-center #idade{
+    border-color: rgba(20, 20, 20, 0.959);
+    outline: none;
+}
+
+.content-center #btn-submit{
+    margin: 10px;
+    margin-left: 262px;
+    padding: 7px 32px;
+    border-radius: 10px;
+    background-color: rgb(53, 115, 208);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.todo{
+    margin: 1px;
+    border-radius: 10px;
+}
+
+.todo fieldset{
+    padding: 20px 30px 20px 20px;
+    border-radius: 10px;
+}
+
+.todo button{
+    position: absolute;
+    margin-top: 7px; 
+}
+
+.todo .name{
+    margin: 6px;
+    border-radius: 10px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: rgba(20, 20, 20, 0.959);
+    outline: none;
+
+}
+
+.todo .idade{
+    width:100px;
+    margin: 6px;
+    border-radius: 10px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: rgba(20, 20, 20, 0.959);
+    outline: none;
+}
+
+#add{
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.todo #btn-del{
+    margin-top: 7px;
+    margin-left: 8px;
+    width: 93px;
+}
+
+.todo input{
+    margin: 5px;
+    outline: none;
+}
+
+
+
+.table-center{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding:20px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.table-center table{
+    width:100%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.table-center .row{
+    border: solid 1px black;
+}
+
+.table-center td{
+    padding: 5px;
+}
+
+.idade{
+    width:100px;
+    border: solid 1px black;
+}
+
+.table-center thead{
+    background-color:  rgba(139, 139, 139, 0.788);
+}
